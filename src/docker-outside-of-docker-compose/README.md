@@ -53,7 +53,7 @@ Add the following to `.devcontainer.json`:
 
 ```json
 "mounts": [
-    "source={localEnv:PWD},target={localEnv:PWD},type=bind,consistency=cached"
+    "source=${localEnv:PWD},target=${localEnv:PWD},type=bind,consistency=cached"
 ],
 "workspaceFolder": "${localEnv:PWD}"
 ```
